@@ -1,0 +1,56 @@
+REPORTE DEL EJERCICIO PRÁCTICO GIT
+
+1. Cloné el repositorio compartido en mi Mac usando git clone.
+2. Creé la rama feature/bio-irene desde main.
+3. Creé la carpeta bios_alumnos y dentro el archivo irene.md con una breve biografía.
+4. Hice git add, git commit y git push de la rama feature/bio-irene.
+5. Abrí una Pull Request en GitHub para incorporar mi biografía a main.
+6. Volví a la rama main sin hacer git pull, tal como indicaban las instrucciones.
+7. Creé la rama feature/peli-irene.
+8. Edité el archivo data/peliculas_comunes.txt añadiendo mi película favorita en la primera línea.
+9. Hice git add, git commit y git push de la rama feature/peli-irene.
+10. Al abrir la Pull Request de la película, surgió un conflicto porque varios compañeros habían modificado la primera línea del mismo archivo.
+11. Para resolverlo, actualicé la información de main y mezclé main en mi rama de película.
+12. Git marcó el conflicto en el archivo peliculas_comunes.txt con los indicadores <<<<<<<, ======= y >>>>>>>.
+13. Abrí el archivo, eliminé esas marcas y dejé integradas correctamente tanto mi película como las de los compañeros.
+14. Después ejecuté git add data/peliculas_comunes.txt y realicé un commit de resolución de conflicto.
+15. Hice git push para actualizar la Pull Request.
+16. Volví a main, hice git pull y comprobé cómo se habían incorporado los cambios del resto de compañeros.
+17. Creé la rama feature/serie-irene.
+18. Creé la carpeta series_alumnos y dentro el archivo irene.txt con mi serie favorita.
+19. Hice git add, git commit y git push.
+20. Abrí la Pull Request final en GitHub.
+
+Resultado:
+- Mi biografía quedó incorporada en main.
+- Mi película favorita aparece en el archivo común.
+- El historial muestra que resolví un conflicto de fusión.
+- Incluí este archivo reporte_git.txt explicando todo el proceso.
+REPORTE DEL EJERCICIO PRÁCTICO GIT
+
+1. Cloné el repositorio compartido en mi Mac usando git clone.
+2. Creé la rama feature/bio-irene desde main.
+3. Creé la carpeta bios_alumnos y dentro el archivo irene.md con una breve biografía.
+4. Hice git add, git commit y git push de la rama feature/bio-irene.
+5. Abrí una Pull Request en GitHub para incorporar mi biografía a main.
+6. Volví a la rama main sin hacer git pull, tal como indicaban las instrucciones.
+7. Creé la rama feature/peli-irene.
+8. Edité el archivo data/peliculas_comunes.txt añadiendo mi película favorita en la primera línea.
+9. Hice git add, git commit y git push de la rama feature/peli-irene.
+10. Al abrir la Pull Request de la película, surgió un conflicto porque varios compañeros habían modificado la primera línea del mismo archivo.
+11. Para resolverlo, actualicé la información de main y mezclé main en mi rama de película.
+12. Git marcó el conflicto en el archivo peliculas_comunes.txt con los indicadores <<<<<<<, ======= y >>>>>>>.
+13. Abrí el archivo, eliminé esas marcas y dejé integradas correctamente tanto mi película como las de los compañeros.
+14. Después ejecuté git add data/peliculas_comunes.txt y realicé un commit de resolución de conflicto.
+15. Hice git push para actualizar la Pull Request.
+16. Volví a main, hice git pull y comprobé cómo se habían incorporado los cambios del resto de compañeros.
+17. Creé la rama feature/serie-irene.
+18. Creé la carpeta series_alumnos y dentro el archivo irene.txt con mi serie favorita.
+19. Hice git add, git commit y git push.
+20. Abrí la Pull Request final en GitHub.
+
+Resultado:
+- Mi biografía quedó incorporada en main.
+- Mi película favorita aparece en el archivo común.
+- El historial muestra que resolví un conflicto de fusión.
+- Incluí este archivo reporte_git.txt explicando todo el proceso
